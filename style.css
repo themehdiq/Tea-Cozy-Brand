@@ -11,6 +11,7 @@ body {
 /* ----------------- HEADER PART ----------------- */
 
 .main {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -104,10 +105,8 @@ li {
 
 .locations {
     width: 1200px;
-    height: 500px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     position: relative;
     text-align: center;
     align-items: center;
@@ -115,7 +114,7 @@ li {
 
 .inside-location-bgImg {
     position: absolute;
-    top: 40%;
+    top: 20%;
 }
 
 .locations-cards {
@@ -127,4 +126,16 @@ li {
     width: 300px;
     background-color: black;
     opacity: 0.86;
+}
+
+/* ------------- FOOTER SECTION ------------- */
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright {
+    margin-left: 20px;
 }
